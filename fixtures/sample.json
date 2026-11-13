@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "variables": [
+      "industry",
+      "export",
+      "price"
+    ],
+    "lags": 1,
+    "positive_margin": 0.001,
+    "restrictions": [
+      {
+        "shock": 0,
+        "variable": "industry",
+        "horizon": 0,
+        "sign": "+"
+      }
+    ]
+  },
+  "collections": {
+    "months": [
+      {
+        "id": "m1",
+        "revision": 1,
+        "month": 1,
+        "values": {
+          "industry": 1,
+          "export": 2,
+          "price": 3
+        }
+      },
+      {
+        "id": "m2",
+        "revision": 1,
+        "month": 2,
+        "values": {
+          "industry": 2,
+          "export": 3,
+          "price": 4
+        }
+      },
+      {
+        "id": "m3",
+        "revision": 1,
+        "month": 3,
+        "values": {
+          "industry": 3,
+          "export": 4,
+          "price": 5
+        }
+      }
+    ]
+  }
+}
